@@ -109,14 +109,14 @@ export default function Home() {
         <img style={{width: 126, height: 116, marginTop:30, marginLeft:60}} src="quote.png" />
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
     <div style={{ width: 500, color: '#FEFEFE', lineHeight: 1.5, fontSize: 20, fontFamily: 'Segoe UI', marginTop: 30, fontWeight: '300', wordWrap: 'break-word' }}>
-      "They have the best services and done everything more I needed and on time delivery assured"
+      &quot;They have the best services and done everything more I needed and on time delivery assured&quot;
       <div style={{ color: '#FEFEFE', fontSize: 20, fontFamily: 'Segoe UI', fontWeight: '300', wordWrap: 'break-word', textAlign: 'right', marginTop: 20 }}>
         - Mathew
       </div>
     </div>
 
     <div style={{ width: 500, color: '#FEFEFE', lineHeight: 1.5, fontSize: 20, fontFamily: 'Segoe UI', marginTop: 30, fontWeight: '300', wordWrap: 'break-word' }}>
-      "Wow, where do I even begin? EyesOn Solutions completely nailed it with our web design. It's like they plucked the ideas right out of my head and turned them into a visual masterpiece. The colors, fonts, and imagery work together seamlessly, creating a site that's a true reflection of our brand. The collaboration process was smooth, and the final design speaks for itself. Hats off to EyesOn Solutions for their design prowess!"
+      &quot;Wow, where do I even begin? EyesOn Solutions completely nailed it with our web design. It&apos;s like they plucked the ideas right out of my head and turned them into a visual masterpiece. The colors, fonts, and imagery work together seamlessly, creating a site that&apos;s a true reflection of our brand. The collaboration process was smooth, and the final design speaks for itself. Hats off to EyesOn Solutions for their design prowess!&quot;
       <div style={{ color: '#FEFEFE', fontSize: 20, fontFamily: 'Segoe UI', fontWeight: '300', wordWrap: 'break-word', textAlign: 'right', marginTop: 20 }}>
         - David
       </div>

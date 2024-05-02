@@ -195,7 +195,7 @@ export default function About() {
           position: 'absolute'
         }}
         />
-
+        
         <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '260px', marginLeft: 1060 }}>© 2023 Eyeson Solutions. All rights reserved.</div>
         <p className="text-transparent text-8xl" style={{marginTop: '280px'}}>...</p>
     </div>

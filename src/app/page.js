@@ -9,7 +9,7 @@ export default function App() {
   const router = useRouter()
   usePathname();
   useEffect(()=>{
-      router.push('/home')   
+      router.push('/about')   
   },[]);
   return (
     <>

@@ -10,7 +10,7 @@ export default function App() {
   usePathname();
   useEffect(()=>{
       router.push('/about')   
-  },[]);
+  },[router]);
   return (
     <>
     </>

@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -16,15 +12,34 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'Old English Text MT';
+  src: url('/fonts/oldenglishtextmt.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Levenim MT';
+  src: url('/fonts/ufonts.com_levenim-mt.ttf') format('truetype');
+}
+
+.text-oldenglishtextmt {
+  font-family: 'Old English Text MT', sans-serif;
+}
+
+.levenim-mt {
+  font-family: 'Levenim MT', sans-serif;
+}
+
+.font-segoe-ui {
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+body {
+  background-color: #202020;
+}
+
 
 @layer utilities {
   .text-balance {

@@ -25,7 +25,7 @@ export default function About() {
         <Link href="/option" legacyBehavior>
           <a>
             <Image 
-            src="../././public/Group 22.png"
+            src="../../../public/Group 22.png"
             alt="Image"
             className="absolute"
             width={20}

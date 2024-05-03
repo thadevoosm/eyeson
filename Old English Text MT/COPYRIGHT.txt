@@ -1,0 +1,61 @@
+import Link from 'next/link';
+
+export default function Home() {
+  return (
+    <div style={{width: 1728, height: 2386, position: 'relative', background: '#202020'}}>
+      <div style={{width: 1658, height: 63, left: 35, top: 40, position: 'absolute'}}>
+        <div style={{left: 0, top: 0, position: 'absolute', color: 'white', fontSize: 60, fontFamily: 'Old English Text MT', fontWeight: '400', wordWrap: 'break-word'}}>eyeson</div>
+        <div style={{width: 31, height: 21, left: 1627, top: 32, position: 'absolute'}}>
+          <div style={{width: 31, height: 5, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 14, border: '1px solid'}} />
+          <div style={{width: 31, height: 5, left: 0, top: 16, position: 'absolute', background: 'white', borderRadius: 14, border: '1px solid'}} />
+          <div style={{width: 24, height: 5, left: 7, top: 8, position: 'absolute', background: 'white', borderRadius: 14, border: '1px solid'}} />
+        </div>
+        <div style={{width: 635, height: 57, left: 477, top: 6, position: 'absolute'}}>
+          <div style={{left: 152, top: 1, position: 'absolute', color: 'white', fontSize: 40, fontFamily: 'Levenim MT', fontWeight: '700', wordWrap: 'break-word'}}>About</div>
+          <div style={{left: 0, top: 1, position: 'absolute', color: 'white', fontSize: 40, fontFamily: 'Levenim MT', fontWeight: '400', wordWrap: 'break-word'}}>Home</div>
+          <div style={{left: 308, top: 1, position: 'absolute', color: 'white', fontSize: 40, fontFamily: 'Levenim MT', fontWeight: '400', wordWrap: 'break-word'}}>Service</div>
+          <div style={{left: 483, top: 0, position: 'absolute', color: 'white', fontSize: 40, fontFamily: 'Levenim MT', fontWeight: '400', wordWrap: 'break-word'}}>Careers</div>
+        </div>
+      </div>
+      <div style={{width: 113.02, height: 0, left: 666, top: 103, position: 'absolute', border: '2px white solid'}}></div>
+      <img style={{width: 598, height: 598, left: 1040, top: 363, position: 'absolute', border: '1px solid'}} src="https://via.placeholder.com/598x598" />
+      <div style={{left: 60, top: 223, position: 'absolute', color: 'white', fontSize: 40, fontFamily: 'Segoe UI', fontWeight: '700', wordWrap: 'break-word'}}>About Eyeson </div>
+      <div style={{left: 60, top: 310, position: 'absolute', color: 'white', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Welcome to Eyeson Solution, where innovation meets imagination to craft cutting-edge software solutions.<br/>With a relentless pursuit of excellence, we specialize in developing and designing software that redefines<br/>the technological landscape. Our team of visionary experts is dedicated to creating seamless and transformative<br/>experiences that empower businesses and individuals alike.</div>
+      <div style={{left: 63, top: 550, position: 'absolute', color: 'white', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>We invite dreamers, creators, and innovators to join us on our<br/>journey to shape the future. Collaborate with Eyeson Solution<br/>to turn ideas into reality, disrupt industries, and leave an indelible<br/>mark on the world of technology.</div>
+      <div style={{left: 63, top: 1060, position: 'absolute', color: '#EAEAEA', fontSize: 80, fontFamily: 'Segoe UI', fontWeight: '700', wordWrap: 'break-word'}}>Define. Refine. Make it Possible</div>
+      <div style={{left: 63, top: 1262, position: 'absolute', color: 'white', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Our skilled engineers breathe life into concepts, transforming <br/>ideas into powerful, intuitive, and scalable software applications</div>
+      <div style={{left: 63, top: 1397, position: 'absolute', color: 'white', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Our design team crafts interfaces that not only captivate but<br/>also ensure effortless usability.</div>
+      <img style={{width: 662, height: 662, left: 1040, top: 1146, position: 'absolute', border: '1px solid'}} src="https://via.placeholder.com/662x662" />
+      <div style={{width: 1590, height: 428, left: 69, top: 1908, position: 'absolute'}}>
+        <div style={{width: 1500, height: 0, left: 0, top: 0, position: 'absolute', border: '1px #707070 solid'}}></div>
+        <div style={{left: 0, top: 184, position: 'absolute', color: '#FEFEFE', fontSize: 22, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>At Eyeson Solutions, we specialize in turning ideas<br/>into reality through expert web development, design, <br/>and cross-platform mobile app solutions. <br/>Join us in crafting digital experiences that captivate and innovate</div>
+        <div style={{left: 50, top: 335, position: 'absolute', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>+91 807 859 065</div>
+        <div style={{left: 50, top: 395, position: 'absolute', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>info@eyeson.in</div>
+        <div style={{left: 7, top: 54, position: 'absolute', color: 'white', fontSize: 70, fontFamily: 'Old English Text MT', fontWeight: '400', wordWrap: 'break-word'}}>eyeson</div>
+        <div style={{width: 30, height: 30, left: 7, top: 340, position: 'absolute', background: 'white', border: '1px solid'}}></div>
+        <div style={{width: 30, height: 24, left: 7.03, top: 402.03, position: 'absolute', background: 'white', border: '1px solid'}}></div>
+        <div style={{left: 853.42, top: 224, position: 'absolute', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Careers</div>
+        <div style={{left: 775.81, top: 383, position: 'absolute', textAlign: 'center', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Have Any Complaints?</div>
+        <div style={{left: 860.42, top: 277, position: 'absolute', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>About</div>
+        <div style={{left: 775, top: 330, position: 'absolute', textAlign: 'center', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>Terms and Conditions</div>
+        <div style={{left: 813, top: 84, position: 'absolute', textAlign: 'center', color: '#FEFEFE', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '600', wordWrap: 'break-word'}}>Navigations</div>
+        <div style={{left: 1097, top: 383, position: 'absolute', textAlign: 'center', color: '#FEFEFE', fontSize: 25, fontFamily: 'Segoe UI', fontWeight: '400', wordWrap: 'break-word'}}>© 2023 Eyeson Solutions. All rights reserved.</div>
+        <div style={{left: 1303, top: 84, position: 'absolute', textAlign: 'center', color: '#FEFEFE', fontSize: 30, fontFamily: 'Segoe UI', fontWeight: '600', wordWrap: 'break-word'}}>Social</div>
+        <div style={{width: 364, height: 50, left: 1162, top: 224, position: 'absolute'}}>
+          <div style={{width: 364, height: 50, left: 0, top: 0, position: 'absolute'}}>
+            <div style={{width: 50, height: 50, left: 0, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #707070 solid'}} />
+            <div style={{width: 50, height: 50, left: 77, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #707070 solid'}} />
+            <div style={{width: 50, height: 50, left: 157, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #707070 solid'}} />
+            <div style={{width: 50, height: 50, left: 237, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #707070 solid'}} />
+            <div style={{width: 50, height: 50, left: 314, top: 0, position: 'absolute', background: 'white', borderRadius: 9999, border: '1px #707070 solid'}} />
+          </div>
+          <div style={{width: 25, height: 25, left: 13, top: 12, position: 'absolute', background: 'black', border: '1px solid'}}></div>
+          <div style={{width: 25, height: 25, left: 90, top: 12, position: 'absolute', background: 'black', border: '1px solid'}}></div>
+          <div style={{width: 25, height: 20.30, left: 169, top: 15, position: 'absolute', background: 'black', border: '1px solid'}}></div>
+          <div style={{width: 25, height: 25, left: 250, top: 12, position: 'absolute', background: 'black', border: '1px solid'}}></div>
+          <div style={{width: 25, height: 19.84, left: 327, top: 17, position: 'absolute', background: 'black', border: '1px solid'}}></div>
+        </div>
+      </div>
+    </div>
+  );
+}

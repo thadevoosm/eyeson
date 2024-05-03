@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import React from 'react';
 import Image from 'next/image';
 
 export default function About() {
@@ -17,30 +18,33 @@ export default function About() {
             <a className="mx-4 text-lg md:text-xl lg:text-2xl font-normal" style={{ fontSize: "40px", lineHeight: "56px", fontFamily: 'Levenim MT' }}>Services</a>
           </Link>
           <Link href="/careers" legacyBehavior>
-            <a className="mx-4 text-lg md:text-xl lg:text-2xl font-normal" style={{ fontSize: "40px", lineHeight: "56px", fontFamily: 'Levenim MT' }}>Careers</a>
+            <a className="mx-4 text-lg md:text-xl lg:text-2xl font-normal" style={{ fontSize: "40px", lineHeight: "56px", fontFamily: 'Levenim MT'  }}>Careers</a>
           </Link>
         </div>
       </nav>
 
       <Link href="/option" legacyBehavior>
-        <a>
-          <Image 
-            src="/Group 22.png"
-            alt="Image"
-            className="absolute"
-            width={20}
-            height={15}
-            style={{
-              top: "0",
-              right: "0", 
-              marginRight: "25px", 
-              marginTop: "28px"
-            }}
-          />
-        </a>
-      </Link>
+  <a>
+    <Image 
+    src="/Group 22.png"
+    alt="Image"
+    className="absolute"
+    width={20}
+    height={15}
+    style={{
+      top: "0",
+      right: "0", 
+      marginRight: "25px", 
+      marginTop: "28px"
+    }}
+    />
+    
+  </a>
+</Link>
 
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       
       <div className="py-8 text-left ml-10 font-bold text-white" style={{ fontSize: "40px", lineHeight: "53.2px", fontWeight: "700", fontFamily: "Segoe UI" }}>
         <p>About Eyeson</p>
@@ -76,20 +80,7 @@ export default function About() {
             </p>
           </div>
           <div className="ml-auto">
-          <Image 
-            src="/01.png"
-            alt="Image"
-            className="h-70 w-70"
-            width={598}
-            height={598}
-            style={{
-              width: 598,
-              height: 598,
-              left: 840,
-              top: 363,
-              position: 'absolute'
-            }}
-          />
+            <img src="/01.png" alt="Image" className="h-70 w-70" style={{width: 598, height: 598, left: 840, top: 363, position: 'absolute'}} />
           </div>
         </div>
       </div>
@@ -97,7 +88,9 @@ export default function About() {
       <div className="py-8 text-left ml-10 mr-10 text-white" style={{ fontSize: "70px", lineHeight: "106.41px", fontWeight: "700" }}>
         Define. Refine. Make it Possible
       </div>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <div className="flex items-center text-left ml-10 mr-10">
         <div style={{ color: 'white', fontSize: '23px', fontWeight: '400', lineHeight: '39.9px'}}>
           Our skilled engineers breathe life into concepts, transforming 
@@ -105,7 +98,8 @@ export default function About() {
           ideas into powerful, intuitive, and scalable software applications
         </div>
       </div>
-      <br /><br />
+      <br />
+      <br />
       <div className="flex items-center text-left ml-10 mr-10">
         <div style={{ color: 'white', fontSize: '23px', fontWeight: '400', lineHeight: '39.9px'}}>
           Our design team crafts interfaces that not only captivate but
@@ -113,89 +107,39 @@ export default function About() {
           also ensure effortless usability.
         </div>
       </div>
-      <br /><br />
-      <Image 
-        src="/2.png"
-        alt="Image"
-        className="h-70 w-70"
-        width={662}
-        height={662}
-        style={{
-          width: 662,
-          height: 662,
-          left: 840,
-          top: 1111,
-          position: 'absolute'
-        }}
-      />
+      <br />
+      <br />
+      <img src="/2.png" alt="Image" className="h-70 w-70" style={{ width: 662, height: 662, left: 840, top: 1111, position: 'absolute' }} />
       <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
       <br /><br />
       <div className="absolute ml-10 mt-7 text-white text-4xl lg:text-5xl font-normal leading-60" style={{fontFamily: 'Old English Text MT'}}>eyeson</div>
       <div className="absolute mt-12 text-white font-normal leading-60" style={{ color: 'white', fontSize: '20px', fontWeight: '500', lineHeight: '39.9px', marginLeft: '700px', textAlign: 'center' }}>Navigations</div>
       <div className="absolute mt-12 text-white font-normal leading-60" style={{ color: 'white', fontSize: '20px', fontWeight: '500', lineHeight: '39.9px', marginLeft: '1200px', textAlign: 'center' }}>Social</div>
       <div className="absolute text-left ml-10" style={{ color: '#FEFEFE', fontSize: 15, fontWeight: '400', marginTop: '125px' }}>
-        At Eyeson Solutions, we specialize in turning ideas
-        <br />
-        into reality through expert web development, design,
-        <br />
-        and cross-platform mobile app solutions.
-        <br />
-        Join us in crafting digital experiences that captivate and innovate
-      </div>
-      <Image 
-        src="/Icon awesome-phone-alt.png"
-        alt="Image"
-        className="h-70 w-70"
-        width={25}
-        height={25}
-        style={{
-          width: 25,
-          height: 25,
-          left: 45,
-          top: 2185,
-          position: 'absolute'
-        }}
-      />
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '241px', marginLeft: 85 }}>+91 807 859 065</div>
-      <Image 
-        src="/Icon material-email.png"
-        alt="Image"
-        className="h-70 w-70"
-        width={25}
-        height={25}
-        style={{
-          width: 25,
-          height: 25,
-          left: 45,
-          top: 2240,
-          position: 'absolute'
-        }}
-      />
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '295px', marginLeft: 85 }}>info@eyeson.in</div>
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '140px', marginLeft: 720 }}>
-        <Link href="/careers" legacyBehavior>
-          <a>Careers</a>
-        </Link>
-      </div>
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '180px', marginLeft: 729 }}>About</div>
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '220px', marginLeft: 670 }}>Terms and Conditions</div>
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '260px', marginLeft: 670 }}>Have Any Complaints?</div>
-      <Image 
-        src="/Group 59.png"
-        alt="Image"
-        className="h-70 w-70"
-        width={300}
-        height={40}
-        style={{
-          width: 300,
-          height: 40,
-          left: 1100,
-          top: 2100,
-          position: 'absolute'
-        }}
-      />
-      <div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '260px', marginLeft: 1060 }}>© 2023 Eyeson Solutions. All rights reserved.</div>
-      <p className="text-transparent text-8xl" style={{marginTop: '280px'}}>...</p>
+  At Eyeson Solutions, we specialize in turning ideas
+  <br />
+  into reality through expert web development, design,
+  <br />
+  and cross-platform mobile app solutions.
+  <br />
+  Join us in crafting digital experiences that captivate and innovate
+</div>
+<img src="/Icon awesome-phone-alt.png" alt="Image" className="h-70 w-70" style={{ width: 25, height: 25, left: 45, top: 2185, position: 'absolute' }} />
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '241px', marginLeft: 85 }}>+91 807 859 065</div>
+<img src="/Icon material-email.png" alt="Image" className="h-70 w-70" style={{ width: 25, height: 25, left: 45, top: 2240, position: 'absolute' }} />
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '295px', marginLeft: 85 }}>info@eyeson.in</div>
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '140px', marginLeft: 720 }}>
+  <Link href="/careers" legacyBehavior>
+    <a>Careers</a>
+  </Link>
+</div>
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '180px', marginLeft: 729 }}>About</div>
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '220px', marginLeft: 670 }}>Terms and Conditions</div>
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '260px', marginLeft: 670 }}>Have Any Complaints?</div>
+<img src="/Group 59.png" alt="Image" className="h-70 w-70" style={{ width: 300, height: 40, left: 1100, top: 2100, position: 'absolute' }} />
+<div className="absolute text-left" style={{ color: '#FEFEFE', fontSize: 17, fontWeight: '400', marginTop: '260px', marginLeft: 1060 }}>© 2023 Eyeson Solutions. All rights reserved.</div>
+<p className="text-transparent text-8xl" style={{marginTop: '280px'}}>...</p>
     </div>
   )
 }
